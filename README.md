@@ -1,3 +1,7 @@
+SINGLE PAGE APPLICATION COM REACT
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,24 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+// No create-react-dom V6+ nao existe mais o Switch q foi subistituido pelo Routes
+//<Switch>
+//              <Route path="/" exact component={Resumo} />
+//                <Route path="/consultas" component={Consultas} />
+//                <Route path="/faturamento" component={Faturamento} />
+//</Switch>
+
+
+
+
+// Novo Modo de declara as Rotas :]
+
+//<Routes>
+//<Route exact path='/'  element={<Resumo />} />
+//<Route path='consultas/*' element={<Consultas />} />
+//<Route path='faturamento/*' element={<Faturamento />} />
+//</Routes>
+
+
+![SPA](https://user-images.githubusercontent.com/82901722/140590727-5e7829ff-bf98-4b3a-8e8a-008615e15e77.gif)
