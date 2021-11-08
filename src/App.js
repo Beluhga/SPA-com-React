@@ -34,3 +34,21 @@ class App extends Component{
 }
 
 export default App;
+
+// No V6+ nao existe mais o Switch q foi subistituido pelo Routes
+//<Switch>
+//              <Route path="/" exact component={Resumo} />
+//                <Route path="/consultas" component={Consultas} />
+//                <Route path="/faturamento" component={Faturamento} />
+//</Switch>
+
+
+
+
+// Novo Modo de declara as Rotas :]
+
+//<Routes>
+//<Route exact path='/'  element={<Resumo />} />
+//<Route path='consultas/*' element={<Consultas />} />
+//<Route path='faturamento/*' element={<Faturamento />} />
+//</Routes>
